@@ -128,14 +128,14 @@ form button {
 }
 
 /* MAIN */
-main .doadores {
+main .donors {
 
     /*Alinhamento*/
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.sangue {
+.blood {
     color: #ff4f4f;
     font-weight: bold;
     font-size: 12px;
@@ -147,7 +147,7 @@ main .doadores {
     position: relative;
 }
 
-.sangue::before {
+.blood::before {
     content: "";
     background-color: #ff4f4f11;
 
@@ -162,7 +162,7 @@ main .doadores {
     transform: rotate(-45deg);
 }
 
-.doador p {
+.donor p {
     margin: 24px 5px 64px 5px;
     font-size: 14px;
 }

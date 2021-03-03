@@ -27,7 +27,7 @@
             <form action="/" method="POST">
                 <input type="text" name="name" placeholder="Nome Completo" autocomplete="off">
                 <input type="text" name="email" placeholder="E-mail" autocomplete="off">
-                <input type="text" name="sangue" placeholder="Tipo sanguíneo" autocomplete="off">
+                <input type="text" name="blood" placeholder="Tipo sanguíneo" autocomplete="off">
                 <button>Quero ajudar</button>
             </form>
         </section>
@@ -36,13 +36,13 @@
             <h2>Últimos <span>doadores</span></h2>
         
 
-            <section class="doadores">
+            <section class="donors">
 
-                {% for doador in doadores %}
+                {% for donor in donors %}
 
-                    <div class="doador">
-                        <div class="sangue">{{doador.sangue}}</div>
-                        <p>{{doador.name}}</p>
+                    <div class="donor">
+                        <div class="blood">{{donor.blood}}</div>
+                        <p>{{donor.name}}</p>
                     </div>
 
                 {%endfor%}
